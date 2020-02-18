@@ -1,0 +1,102 @@
+/* 메인 */
+#main {
+    margin          : auto;
+    margin-top      : 100px;
+    border-radius   : 20px;
+    background-color: lightblue;
+    text-align      : center;
+    width           : 500px;
+    height          : 800px;
+  }
+  
+  /* 채팅 영역 */
+  #chat {
+    height          : 90%;
+    width           : 100%;
+    overflow-y      : auto;
+  }
+  
+  /* 접속 알림 */
+  .connect {
+    width           : 90%;
+    margin          : auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align      : center;
+    font-size       : 14px;
+    line-height     : 21px;
+    margin-top      : 10px;
+  }
+  
+  /* 접속 종료 알림 */
+  .disconnect {
+    width           : 90%;
+    margin          : auto;
+    background-color: indianred;
+    text-align      : center;
+    margin-top      : 10px;
+  }
+  
+  /* 내가 보낸 메시지 */
+  .me {
+    margin-bottom   : 10px;
+    display         : flex;
+    justify-content : flex-end;
+    align-items     : flex-end;
+  }
+
+  .me span:nth-child(1) {
+    margin-top      : 35px;
+    margin-left     : 5px;
+    font-size       : 10px;
+    color           : rgba(0, 0, 0, 0.5);
+  }
+  
+  .me span:nth-child(2) {
+    background-color: #ffe934;
+    padding         : 10px 5px;
+    border-radius   : 2px;
+    margin-right    : 10px;
+    margin-left     : 10px;
+    font-size       : 15px;
+  }
+  
+  /* 상대방이 보낸 메시지 */
+  .other {
+    margin-bottom   : 10px;
+    display         : flex;
+    justify-content : flex-start;
+    align-items     : flex-start;
+  }
+
+  .other img {
+    background-image: url("../images/kakao_friends.png");
+    height          : 35px;
+    border-radius   : 50%;
+    margin-right    : 10px;
+  }
+
+  .other div {
+    display         : flex;
+    flex-direction  : column;
+  }
+
+  .other h3 {
+    text-align      : left;
+    font-size       : 12px;
+    font-weight     : 600;
+    margin-bottom   : 5px;
+  }
+
+  .other div span {
+    background-color: white;
+    padding         : 10px 5px;
+    border-radius   : 2px;
+    font-size       : 15px;
+  }
+
+  .other > span {
+    margin-top      : 60px;
+    margin-left     : 5px;
+    font-size       : 10px;
+    color           : rgba(0, 0, 0, 0.5);
+  }
